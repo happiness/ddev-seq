@@ -6,7 +6,7 @@ analysis, and alerting server built for structured logs and traces.
 ## Add-on installation
 
 ```
-ddev add-on get petertornstrand/ddev-seq
+ddev add-on get https://github.com/happiness/ddev-seq
 ```
 
 ## Drupal integration
