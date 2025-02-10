@@ -28,7 +28,7 @@ comes with it's own log implementation but I have not managed to get that workin
 properly so for now I recommend using the *OpenTelemetry Log* module instead.
 
 ```
-composer requre drupal/opentelemetry drupal/otlog
+composer require drupal/opentelemetry drupal/otlog
 ```
 
 Configure the *OpenTelemetry* module at `/admin/config/development/opentelemetry`
