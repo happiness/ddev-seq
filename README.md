@@ -26,10 +26,10 @@ and add the **Endpoint** `http://seq/ingest/otlp`.
 That's it. Open `http://seq.<DDEV_NAME>.ddev.site:8501/` to start exploring
 your logs and traces.
 
-### Use OpenTelementry Logs module
+### Use OpenTelementry bundled log module
 
-If you want to use the log module bundled with the OpenTelemetry module you
-need to apply the patch from [the following issue](https://www.drupal.org/project/opentelemetry/issues/3505594)
+If you want to use the log module bundled with the [OpenTelemetry](https://www.drupal.org/project/opentelemetry)
+module you need to apply the patch from [the following issue](https://www.drupal.org/project/opentelemetry/issues/3505594)
 to get the log message body into Seq.
 
 ## Tracing
