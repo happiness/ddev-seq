@@ -9,17 +9,6 @@ analysis, and alerting server built for structured logs and traces.
 ddev add-on get https://github.com/happiness/ddev-seq
 ```
 
-## DDEV customizations
-
-You need to install the PHP OpenTelemetry package. Edit the `./ddev/config.yml`
-file in your project and add the following lines:
-
-```
-webimage_extra_packages: ["php${DDEV_PHP_VERSION}-opentelemetry"]
-```
-
-Then restart DDEV by executing `ddev restart`.
-
 ## Drupal integration
 
 Install the modules [OpenTelemetry](https://www.drupal.org/project/opentelemetry) and

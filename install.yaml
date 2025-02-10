@@ -58,7 +58,9 @@ pre_install_actions:
 # if it hasn't been modified by the user.
 # DDEV environment variables can be interpolated into these filenames
 project_files:
+- config.ddev-seq.yaml
 - docker-compose.seq.yaml
+- .env.seq
 
 # List of files and directories that are copied into the global .ddev directory
 # DDEV environment variables can be interpolated into these filenames
