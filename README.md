@@ -1,4 +1,4 @@
-# DDEV Seq add-on
+# ddev-seq
 
 This is a DDEV add-on for [Seq](https://datalust.co/seq), a self-hosted search,
 analysis, and alerting server built for structured logs and traces.
